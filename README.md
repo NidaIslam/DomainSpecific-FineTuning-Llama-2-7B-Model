@@ -10,7 +10,10 @@ This includes documenting the process of finetuning, also compare the outcomes o
 
 <h2>📂1. AWS Configuration and Setup</h2>
 
-- Installed required libraries: `!pip install --upgrade sagemaker datasets`
+- Installed required libraries:
+```bash
+  !pip install --upgrade sagemaker datasets
+```
 - Imported necessary modules like `boto3`, `SageMaker Jumpstart`, and other AWS service libraries.
 - Configured AWS SageMaker as the integrated development environment (IDE).
 - Created an Amazon S3 bucket to store the domain-specific dataset: `s3://genaiwithawsproject2024/training-datasets/it`
